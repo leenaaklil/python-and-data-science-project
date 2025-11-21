@@ -1,0 +1,48 @@
+# utils.py
+import numpy as np
+import pandas as pd
+from datetime import datetime
+
+def generate_random_sales(min_val, max_val, size):
+    """
+    Generate random sales data between min_val and max_val
+    
+    Args:
+        min_val (int): Minimum sales value
+        max_val (int): Maximum sales value  
+        size (int): Number of values to generate
+    
+    Returns:
+        np.array: Array of random sales values
+    """
+    return np.random.randint(min_val, max_val + 1, size)
+
+def generate_sales_data():
+    """
+    Generate complete sales dataset for 12 months and 4 products
+    """
+    # Generate monthly dates
+    dates = pd.date_range(start='2025-01-01', end='2025-12-01', freq='MS')
+    
+    # Generate sales data for each product
+    product_a = generate_random_sales(50, 100, 12)
+    product_b = generate_random_sales(30, 80, 12)
+    product_c = generate_random_sales(20, 60, 12)
+    product_d = generate_random_sales(10, 50, 12)
+    
+    # Create DataFrame
+    sales_df = pd.DataFrame({
+        'Date': dates,
+        'Product_A': product_a,
+        'Product_B': product_b, 
+        'Product_C': product_c,
+        'Product_D': product_d
+    })
+    
+    return sales_df
+
+if __name__ == "__main__":
+    # Generate and save initial data
+    df = generate_sales_data()
+    df.to_csv('data/initial.csv', index=False)
+    print("Initial data saved to data/initial.csv")
