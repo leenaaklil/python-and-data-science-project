@@ -14,6 +14,9 @@ project_sales/
 
 🌸 Features:
 📈 Comprehensive Sales Analysis - Monthly trends, growth rates, and performance metrics
+
 📊 Multiple Chart Types - Line charts, stacked bars, heatmaps, box plots, and pie charts
+
 🔍 Business Insights - Key performance indicators and strategic recommendations
+
 💾 Data Export - CSV exports for raw data, enhanced metrics, and pivot tables
