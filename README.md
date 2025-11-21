@@ -3,13 +3,21 @@ A sales analysis dashboard built with Python, NumPy, Pandas,Matplotlib, and Seab
 products over one year, providing key business insights and strategic recommendations.
 
 📁 Project Structure
+
 project_sales/
+
 ├── 📓 notebook.ipynb          # Main analysis notebook
+
 ├── 🔧 utils.py                # Data generation functions
+
 ├── 📂 data/
+
 │   ├── 📄 initial.csv         # Raw generated sales data
+
 │   ├── 📄 final.csv           # Enhanced data with metrics
+
 │   └── 📄 output.csv          # Final results & pivot tables
+
 └── 📖 README.md              # This file
 
 🌸 Features:
