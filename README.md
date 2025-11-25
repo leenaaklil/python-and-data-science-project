@@ -1,4 +1,7 @@
-📊 Monthly Sales Analysis Project By AKLIL Lyna and BENKAMACH Sabrina from Group 3 M1 AI :
+📊 Monthly Sales Analysis Project By :
+        -AKLIL Lyna
+        -BENKEMACHE Sabrina 
+        -from Group 3 M1 AI :
 
 A sales analysis dashboard built with Python, NumPy, Pandas,Matplotlib, and Seaborn. This project generates, analyzes, and visualizes monthly sales data for four
 products over one year, providing key business insights and strategic recommendations.
