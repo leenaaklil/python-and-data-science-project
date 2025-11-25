@@ -10,25 +10,25 @@ products over one year, providing key business insights and strategic recommenda
 
 project_sales/
 
-├── 📓 notebook.ipynb          # Main analysis notebook
+├──  notebook.ipynb          # Main analysis notebook
 
-├── 🔧 utils.py                # Data generation functions
+├──  utils.py                # Data generation functions
 
 ├── 📂 data/
 
-│   ├── 📄 initial.csv         # Raw generated sales data
+│   ├──  initial.csv         # Raw generated sales data
 
-│   ├── 📄 final.csv           # Enhanced data with metrics
+│   ├──  final.csv           # Enhanced data with metrics
 
-│   └── 📄 output.csv          # Final results & pivot tables
+│   └──  output.csv          # Final results & pivot tables
 
 └── 📖 README.md              # This file
 
-🌸 Features:
-📈 Comprehensive Sales Analysis - Monthly trends, growth rates, and performance metrics
+ Features:
+ Comprehensive Sales Analysis - Monthly trends, growth rates, and performance metrics
 
-📊 Multiple Chart Types - Line charts, stacked bars, heatmaps, box plots, and pie charts
+ Multiple Chart Types - Line charts, stacked bars, heatmaps, box plots, and pie charts
 
-🔍 Business Insights - Key performance indicators and strategic recommendations
+ Business Insights - Key performance indicators and strategic recommendations
 
-💾 Data Export - CSV exports for raw data, enhanced metrics, and pivot tables
+ Data Export - CSV exports for raw data, enhanced metrics, and pivot tables
